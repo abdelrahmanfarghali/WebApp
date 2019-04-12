@@ -1,0 +1,14 @@
+# Rule 1
+User-agent: *
+User-agent: AdsBot-Google
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /*.db$
+
+# Rule 2
+User-agent: *
+User-agent: AdsBot-Google
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://127.0.0.1:5000/sitemap.xml
